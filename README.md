@@ -1,30 +1,7 @@
-## Homework | Week 3
-`Not: Ödevi yeni bir repoya ekleyeceksiniz. Var olan reponuzda bir güncelleme olmayacak. "homework-2..." şeklinde yeni bir repo üzerinde çalışacaksınız.`
+# Booklist Application
+Booklist is an application with lots of book titles that can be manipulated by the user.
 
-
-Elimizde bir kitap listesi var. 
-Kitap alanları şöyle;
-```
-- Kitap ID
-- Kitap Adı
-- Sayfa Sayısı
-- Stok Sayısı
-- Fiyatı
-- Stock Kodu
-- ISBN
-- Yazar bilgisi (ID ve İsim)
-```
-
-1. Tüm kitapları listele (list)
-2. Verilen girdi hangi kitap isimlerinde geçiyorsa o kitapları listele (search)
-3. ID'ye göre kitabı yazdır
-4. IDsi verilen kitabı sil. (Silinen kitabın ID'ye göre geliyor olması gerekiyor.)
-5. IDsi verilen kitabı istenilen adet kadar satın al ve kitabın son bilgilerini ekrana yazdır.
-
-Yanlış komut girildiğinde ekrana usage'ı yazdıracak. 
-
-
-Concurrency ile ilgili medium yazısı yazılacak. 
+## Commands
 
 ### list command
 ```
@@ -55,9 +32,19 @@ go run main.go buy <bookID> <quantity>
 go run main.go buy 5 2
 ```
 
-###
-# Requirements:
-- README
-- No third party package(s)
-- Everything should be in English (Comments, Function names, File names, etc.)
-- Use structs not maps
+
+# Installation
+Use the git clone command to clone the code.
+
+```
+git clone https://github.com/Picus-Security-Golang-Bootcamp/homework-1-week-2-onurdogustemel.git
+```
+
+# Contribution
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+# License
+
+There is no license. 
+
