@@ -37,7 +37,7 @@ go run main.go buy 5 2
 Use the git clone command to clone the code.
 
 ```
-git clone https://github.com/Picus-Security-Golang-Bootcamp/homework-1-week-2-onurdogustemel.git
+git clone https://github.com/Picus-Security-Golang-Bootcamp/homework-2-week-3-onurdogustemel.git
 ```
 
 # Contribution
